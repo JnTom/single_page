@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>網頁設計作品集</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:700,400">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <p class="site-title-sub">設計從感動開始</p>
+    <h1 class="site-title">網頁作品集</h1>
+    <p class="site-description">Check out some of my works.</p>
+    <div class="buttons">
+      <a class="button" href="#sec1"><span>ABOUT ME</span></a>
+      <a class="button" href="#sec2"><span>WORKS</span></a>
+      <a class="button" href="#sec3"><span>MY SKILLS</span></a>
+      <a class="button" href="#sec4">SEND MESSAGE</a>
+    </div>
+  </header>
+  <section class="about" id="sec1">
+    <h2 class="heading">ABOUT ME</h2>
+     <p class="about-text">
+	踏入網頁設計領域工作後，發現要學的東西真是又多又雜，總要追著最新的技術跑，從早期使用Dreamweaver製作網站Table切版、Flash多媒體網站、到目前用CSS排版<br>跨裝置的手機RWD響應式網站製作，除了自我的技術能力提升之外，同事間的跨領域的合作更為重要，前端和後端的整合，才能成就為一個完美的專案。</p>
+  <p class="about-text">
+	熱情之外還是熱情，勇於面對工作中的困難與挑戰，寫程式如同打怪、過關的遊戲模式般，克服之後就會很有成就感。期許自己未來，每年能學習一種到二種新的技術，<br>
+	除了 HTML、CSS 及 Java Script(JQuery)程式碼的相關知識外，目前還學Bootstrap3、CSS3、SCSS。其他興趣是攝影、聽音樂、上網及運動...
+  </p>
+  </section>
+  <section class="works" id="sec2">
+    <h2 class="heading">WORKS</h2>
+    <div class="works-wrapper">
+      <div class="work-box tree">
+        <img class="work-image" src="images/tree.jpg" alt="web1">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              GL-GoodLife<br>
+          血糖儀網站<br>
+          使用語法：HTML, CSS, jQuery<br>
+              <a href="http://www.gl-diabetes.com/" target="_blank" class="button button-ghost">前往</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box building">
+        <img class="work-image" src="images/building.jpg" alt="web2">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+          HMD官網<br>
+         <br>
+          使用語法：HTML, CSS, jQuery<br>
+              <a href="https://jntom.github.io/index.html" class="button button-ghost">前往</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box lake">
+        <img class="work-image" src="images/lake.jpg" alt="web3">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+          Fia Biomed<br>
+          品牌網站<br>
+          使用語法：HTML, CSS, jQuery<br>
+              <a href="http://www.fia-biomed.de/" class="button button-ghost">前往</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box sky">
+        <img class="work-image" src="images/sky.jpg" alt="web4">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+          光復高中官網<br>
+          早期作品<br>
+          使用的工具：Dreamweaver, photoshop, flash<br>
+              <a href="http://www.kfsh.hc.edu.tw" class="button button-ghost">前往</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="sec3">
+    <h2 class="heading">MY SKILLS</h2>
+    <div class="skills-wrapper">
+	  	<div class="skill-box">
+        <i class="skill-icon fa fa-code"></i>
+        <div class="skill-title">CODING</div>
+        <p class="skill-text">
+          HTML/CSS/Java Script<br>
+          Bootstrap<br>
+          jQuery
+        </p>
+      	</div>      
+      	<div class="skill-box">
+        <i class="skill-icon fa fa-pencil"></i>
+        <div class="skill-title">TOOLS</div>
+        <p class="skill-text">
+          Photoshop<br>
+          Illustrator<br>
+          Sublime text 3<br>
+
+        </p>
+      	</div>
+		<div class="skill-box">
+        <i class="skill-icon fa fa-magic"></i>
+        <div class="skill-title">OTHER</div>
+        <p class="skill-text">
+          平面設計<br>
+          影片編輯<br>
+          攝影
+        </p>
+      	</div>
+    </div>
+  </section>
+  <section class="contact" id="sec4">
+    <h2 class="heading">CONTACT</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="NAME">
+      <textarea name="message" placeholder="MESSAGE"></textarea>
+      <input type="submit" value="SEND">
+    </form>
+  </section>
+  <footer class="footer">
+      ©  Web Studio
+  </footer>
+  <script src="lib/placeholders.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
+
+  <script>
+    
+      $(function(){
+  // 點選功能表
+  $("a[href^=#]:not([href=#])").click(function(){
+    // 取得待顯示內容的位置
+    var target = $($(this).attr("href")).offset().top;
+    
+    // 將座標減70px
+    target -= 0;
+    
+    // 平滑捲動到指定位置
+    $("html, body").animate({scrollTop: target}, 500);
+
+    return false;
+  });
+});
+    </script>
+    
+  </script>
+</body>
+</html>
