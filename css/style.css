@@ -188,16 +188,16 @@ body {
 }
 
 .work-box.tree::after {
-  background-image: url('../images/tree.jpg');
+  background-image: url('../images/01.jpg');
 }
 .work-box.building::after {
-  background-image: url('../images/building.jpg');
+  background-image: url('../images/02.jpg');
 }
 .work-box.lake::after {
-  background-image: url('../images/lake.jpg');
+  background-image: url('../images/03.jpg');
 }
 .work-box.sky::after {
-  background-image: url('../images/sky.jpg');
+  background-image: url('../images/04.jpg');
 }
 .work-box:nth-child(odd) .work-image {
   margin: 60% 0 0;
